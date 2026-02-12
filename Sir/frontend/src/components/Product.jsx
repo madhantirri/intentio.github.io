@@ -14,7 +14,7 @@ const Product = () => {
 
             <div className="container relative z-[60]">
                 {/* Box positioned to the right, width locked */}
-                <div className="max-w-[75%] ml-auto -mr-[120px]">
+                <div className="w-full lg:max-w-[75%] lg:ml-auto lg:-mr-[120px]">
 
                     {/* Right side — wide landscape box */}
                     <motion.div
