@@ -1,12 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const location = useLocation();
+    const navigate = useNavigate();
+
+    const scrollToContact = (e) => {
+        e.preventDefault();
+        if (isHome) {
+            const el = document.getElementById('contact');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            navigate('/');
+            setTimeout(() => {
+                const el = document.getElementById('contact');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+            }, 300);
+        }
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -45,17 +60,9 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    {/* Contact Link Logic: 
-                        If on Home, scroll to #contact. 
-                        If on other pages, go to /#contact (which might need handling) or just /contact page if it existed.
-                        Since we don't have a /contact page, but a section in Home, 
-                        we can link to "/" and hope the user scrolls, or use a hash link.
-                        React Router's <Link to="/#contact"> works if we handle hash scrolling.
-                        Or we can use <a href="/#contact">.
-                    */}
-                    <a href={isHome ? "#contact" : "/#contact"} className="btn btn-primary px-6 py-2 text-sm shadow-lg shadow-secondary/20">
+                    <button onClick={scrollToContact} className="btn btn-primary px-6 py-2 text-sm shadow-lg shadow-secondary/20">
                         Contact
-                    </a>
+                    </button>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -84,13 +91,12 @@ const Navbar = () => {
                                     {link.name}
                                 </Link>
                             ))}
-                            <a
-                                href={isHome ? "#contact" : "/#contact"}
+                            <button
+                                onClick={(e) => { scrollToContact(e); setIsOpen(false); }}
                                 className="btn btn-primary w-full text-center"
-                                onClick={() => setIsOpen(false)}
                             >
                                 Contact
-                            </a>
+                            </button>
                         </div>
                     </motion.div>
                 )}
