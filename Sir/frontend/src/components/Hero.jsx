@@ -44,11 +44,11 @@ const Hero = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
                                 <button onClick={() => scrollTo('contact')} className="btn btn-primary group">
-                                    Request a Demo
+                                    Contact
                                     <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                                 </button>
-                                <button onClick={() => scrollTo('specs')} className="btn btn-outline group">
-                                    View Clinical Data
+                                <button onClick={() => scrollTo('product')} className="btn btn-outline group">
+                                    Product Details
                                     <ChevronRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                                 </button>
                             </div>
