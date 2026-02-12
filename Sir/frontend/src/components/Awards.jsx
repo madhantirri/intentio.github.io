@@ -4,13 +4,13 @@ import { Trophy, CheckCircle2 } from 'lucide-react';
 
 const Awards = () => {
     const awards = [
-        { image: "/awards/Award1.jpg" },
-        { image: "/awards/Award2.jpg" },
-        { image: "/awards/Award3.jpg" },
-        { image: "/awards/Award4.jpg" },
-        { image: "/awards/Award5.jpg" },
-        { image: "/awards/Award6.jpg" },
-        { image: "/awards/Award7.jpg" },
+        { image: "./awards/Award1.jpg" },
+        { image: "./awards/Award2.jpg" },
+        { image: "./awards/Award3.jpg" },
+        { image: "./awards/Award4.jpg" },
+        { image: "./awards/Award5.jpg" },
+        { image: "./awards/Award6.jpg" },
+        { image: "./awards/Award7.jpg" },
     ];
 
     return (

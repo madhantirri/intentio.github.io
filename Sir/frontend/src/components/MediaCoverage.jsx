@@ -9,9 +9,9 @@ const MediaCoverage = () => {
     ];
 
     const images = [
-        "/media/Media1.png",
-        "/media/media2.png",
-        "/media/media3.jpg"
+        "./media/Media1.png",
+        "./media/media2.png",
+        "./media/media3.jpg"
     ];
 
     const newsItems = [
@@ -20,35 +20,35 @@ const MediaCoverage = () => {
             source: "Times of India",
             url: "https://timesofindia.indiatimes.com/city/ahmedabad/bone-biopsy-device-to-reduce-damage-to-bone-tissue/articleshow/99003170.cms",
             desc: "Innovation aimed at improving patient comfort and procedure accuracy.",
-            image: "/news/external1.png"
+            image: "./news/external1.png"
         },
         {
             title: "Intelligent Biopsy Gun developed by GCRI & IITRAM",
             source: "TV9 Gujarati",
             url: "https://tv9gujarati.com/gujarat/ahmedabad/ahmedabad-doctors-from-gujarat-cancer-research-institute-developed-an-intelligent-biopsy-gun-with-the-help-of-engineers-from-iitram-755250.html",
             desc: "Collaborative effort leads to breakthrough medical device.",
-            image: "/news/external2.png"
+            image: "./news/external2.png"
         },
         {
             title: "Easy way to take tissue for bone marrow biopsy",
             source: "Patrika News",
             url: "https://www.patrika.com/ahmedabad-news/there-will-be-an-easy-way-to-take-tissue-for-bone-marrow-and-biopsy-8217574",
             desc: "Simplifying complex procedures for better healthcare outcomes.",
-            image: "/news/external3.jpg"
+            image: "./news/external3.jpg"
         },
         {
             title: "Doctor develops intelligent biopsy gun",
             source: "Zee News",
             url: "https://zeenews.india.com/gujarati/gujarat/a-doctor-from-gujarat-cancer-research-institute-developed-an-intelligent-biopsy-gun-with-the-help-of-engineers-from-iitram-268325",
             desc: "Local innovation making waves in medical technology.",
-            image: "/news/external4.jpg"
+            image: "./news/external4.jpg"
         },
         {
             title: "From clinics to code - Doctors take the startup route",
             source: "Times of India",
             url: "https://timesofindia.indiatimes.com/city/ahmedabad/from-clinics-to-code-doctors-in-gujarat-take-the-startup-route/articleshow/122168205.cms",
             desc: "Highlighting the trend of physician-led startups in Gujarat.",
-            image: "/news/external5.png"
+            image: "./news/external5.png"
         }
     ];
 

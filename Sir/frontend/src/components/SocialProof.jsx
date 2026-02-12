@@ -7,7 +7,7 @@ const SocialProof = () => {
         {
             name: "Dr. Abhijeet Salunke",
             role: "Founder",
-            image: "/founders/abhijeet1.png",
+            image: "./founders/abhijeet1.png",
             bio: [
                 "Dr. Salunke specializes in Orthopedic Oncology, with clinical fellowships at National University Hospital(NUH), Singapore, travelling fellowship at Memorial Sloan Kettering Cancer Centre(MSKCC), New York, USA, & research fellowship at Tata Memorial Hospital, Mumbai.",
                 "A recipient of the Silver Jubilee Oration at IOACON 2022. Dr. Salunke has over 100 published articles in indexed journals, with 1200+ citations.",
@@ -20,7 +20,7 @@ const SocialProof = () => {
         {
             name: "Dr. Krupa Shah",
             role: "Co-Founder",
-            image: "/founders/krupa1.png",
+            image: "./founders/krupa1.png",
             bio: [
                 "Dr Krupa Shah has completed her Ph.D from IIT Gandhinagar in 2015. Her research work includes condition monitoring and diagnostics of power transformer.",
                 "She has received university rank during her Bachelor degree program in Electrical Engineering.",
@@ -31,7 +31,7 @@ const SocialProof = () => {
         {
             name: "Dr. Raghavendra Bhalerao",
             role: "Co-Founder",
-            image: "/founders/bhalerao1.png",
+            image: "./founders/bhalerao1.png",
             bio: [
                 "I earned my PhD from Indian Institute of Technology Bombay, in 2016, Master's degree in Spatial Information Technology from Devi Ahliya University in 2010 with University Gold Medal.",
                 "Prior to that he worked with HCL Technologies as SAP Basic Consultant for 2 years. I finished B.Tech. in Electronics and Communication from RGPV Bhopal.",
@@ -41,7 +41,7 @@ const SocialProof = () => {
         {
             name: "Mr. Kaushal Panchal",
             role: "Partner",
-            image: "/founders/Kaushal1.png",
+            image: "./founders/Kaushal1.png",
             bio: [
                 "Kaushal Panchal is a seasoned entrepreneur and the visionary owner of Autus Healthcare, a leading provider of orthopaedic implants and medical devices. With over 15 years of extensive experience in the healthcare industry, he has been instrumental in delivering high-quality medical solutions tailored to the evolving needs of the sector.",
                 "For the past five years, Autus Healthcare has been at the forefront of orthopaedic innovations, ensuring excellence in product quality and patient care. Under Mr. Panchal’s leadership, the company continues to expand its footprint across Gujarat and Maharashtra, catering to healthcare professionals with cutting-edge implants and devices.",

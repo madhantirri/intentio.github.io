@@ -6,22 +6,22 @@ const GrantedIP = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     const patents = [
-        { title: "Scapula Implant", image: "/granted_ip/granted1.jpg", desc: "Patient-specific scapular prosthesis" },
-        { title: "Scapula Implant", image: "/granted_ip/granted2.jpg", desc: "Advanced fixation methodology" },
-        { title: "Metacarpel Implant", image: "/granted_ip/granted3.png", desc: "Custom metacarpal reconstruction" },
-        { title: "Metacarpel Implant", image: "/granted_ip/granted4.jpg", desc: "Improved joint mobility design" },
-        { title: "Metaphyseal Implant", image: "/granted_ip/granted5.jpg", desc: "Metaphyseal anchoring system" },
-        { title: "Metaphyseal Implant", image: "/granted_ip/granted6.jpg", desc: "Enhanced osseointegration surface" },
-        { title: "Granted IP Certificate", image: "/granted_ip/granted7.jpg", desc: "Official Patent Grant" },
-        { title: "Granted IP Certificate", image: "/granted_ip/granted8.jpg", desc: "Official Patent Grant" },
-        { title: "Granted IP Certificate", image: "/granted_ip/granted9.jpg", desc: "Official Patent Grant" },
-        { title: "Granted IP", image: "/granted_ip/granted10.jpg", desc: "Intellectual Property Document" },
-        { title: "Granted IP", image: "/granted_ip/granted11.jpg", desc: "Intellectual Property Document" },
-        { title: "Granted IP", image: "/granted_ip/granted12.jpg", desc: "Intellectual Property Document" },
-        { title: "Granted IP", image: "/granted_ip/granted13.jpg", desc: "Intellectual Property Document" },
-        { title: "Granted IP", image: "/granted_ip/granted15.jpg", desc: "Intellectual Property Document" },
-        { title: "Grater Patent", image: "/granted_ip/381708_grater_page-0001.jpg", desc: "Surgical Grater Innovation" },
-        { title: "Capacitor Patent", image: "/granted_ip/401412_capacitor-rb_page-0001.jpg", desc: "Biomedical Capacitor Tech" },
+        { title: "Scapula Implant", image: "./granted_ip/granted1.jpg", desc: "Patient-specific scapular prosthesis" },
+        { title: "Scapula Implant", image: "./granted_ip/granted2.jpg", desc: "Advanced fixation methodology" },
+        { title: "Metacarpel Implant", image: "./granted_ip/granted3.png", desc: "Custom metacarpal reconstruction" },
+        { title: "Metacarpel Implant", image: "./granted_ip/granted4.jpg", desc: "Improved joint mobility design" },
+        { title: "Metaphyseal Implant", image: "./granted_ip/granted5.jpg", desc: "Metaphyseal anchoring system" },
+        { title: "Metaphyseal Implant", image: "./granted_ip/granted6.jpg", desc: "Enhanced osseointegration surface" },
+        { title: "Granted IP Certificate", image: "./granted_ip/granted7.jpg", desc: "Official Patent Grant" },
+        { title: "Granted IP Certificate", image: "./granted_ip/granted8.jpg", desc: "Official Patent Grant" },
+        { title: "Granted IP Certificate", image: "./granted_ip/granted9.jpg", desc: "Official Patent Grant" },
+        { title: "Granted IP", image: "./granted_ip/granted10.jpg", desc: "Intellectual Property Document" },
+        { title: "Granted IP", image: "./granted_ip/granted11.jpg", desc: "Intellectual Property Document" },
+        { title: "Granted IP", image: "./granted_ip/granted12.jpg", desc: "Intellectual Property Document" },
+        { title: "Granted IP", image: "./granted_ip/granted13.jpg", desc: "Intellectual Property Document" },
+        { title: "Granted IP", image: "./granted_ip/granted15.jpg", desc: "Intellectual Property Document" },
+        { title: "Grater Patent", image: "./granted_ip/381708_grater_page-0001.jpg", desc: "Surgical Grater Innovation" },
+        { title: "Capacitor Patent", image: "./granted_ip/401412_capacitor-rb_page-0001.jpg", desc: "Biomedical Capacitor Tech" },
     ];
 
     return (

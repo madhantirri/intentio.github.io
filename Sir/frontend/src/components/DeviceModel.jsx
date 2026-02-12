@@ -86,7 +86,7 @@ const DeviceModel = () => {
         // ======================
         const loader = new GLTFLoader();
         loader.load(
-            '/models/modified.glb',
+            './models/modified.glb',
             (gltf) => {
                 const model = gltf.scene;
                 modelRef.current = model;

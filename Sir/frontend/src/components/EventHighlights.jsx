@@ -6,10 +6,10 @@ const EventHighlights = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     const events = [
-        { image: "/event/venues1.jpg" },
-        { image: "/event/venues2.jpg" },
-        { image: "/event/venues3.jpg" },
-        { image: "/event/venues4.jpg" }
+        { image: "./event/venues1.jpg" },
+        { image: "./event/venues2.jpg" },
+        { image: "./event/venues3.jpg" },
+        { image: "./event/venues4.jpg" }
     ];
 
     return (
