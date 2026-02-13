@@ -21,7 +21,7 @@ const Hero = () => {
             {/* Gradient Overlay for Readability */}
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary-dark/95 via-primary-dark/80 to-transparent pointer-events-none z-0" />
 
-            <div className="container relative z-20">
+            <div className="container relative z-[60]">
                 <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-12 lg:gap-16">
 
                     {/* Left Column: Text Content */}
